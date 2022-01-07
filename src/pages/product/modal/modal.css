@@ -1,0 +1,102 @@
+.modal-popup {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: -100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 130vh;
+  width: 100%;
+  pointer-events: all;
+}
+.modal-show {
+  width: 900px;
+  border-radius: 14px;
+  height: 530px;
+  background-color: white;
+  margin: 120px 0px 0px 230px;
+  pointer-events: all;
+}
+.closeBtn {
+  cursor: pointer;
+  color: black;
+  justify-self: end;
+  margin: 20px 10px 0px 836px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  border: none;
+  background-color: red;
+}
+.modal-popup .modal-show .logo-div {
+  width: 50%;
+  margin: -40px 22px;
+}
+.modal-popup .modal-show  .logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.container {
+  display: flex;
+  width: 95%;
+  background-color: white;
+  margin: 30px auto;
+}
+.container2 {
+  width: 50%;
+  border-radius: 10px;
+  margin: 30px auto;
+  height: 420px;
+  background-color: white;
+  box-shadow: 0 0 15px lightgray;
+}
+.container2 input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.container2 .titlee {
+  font-size: 20px;
+  margin: 10px 0 4px 20px;
+}
+.container2 textarea {
+  margin: 10px 20px;
+  outline: none;
+  width: 90%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+.container2 .files {
+  width: 90%;
+  margin: 10px 20px;
+}
+.container3 {
+  width: 33%;
+  height: fit-content;
+  padding: 20px 0;
+  border-radius: 12px;
+  margin: 30px auto;
+  box-shadow: 0 0 14px lightgray;
+}
+.container3 .inputs2 {
+  margin: 10px 20px;
+  width: 90%;
+}
+.container3 .submit {
+  margin: 10px 50px auto;
+  background-color: #4ca85d;
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.container3 .amount {
+  width: 90%;
+  margin: 10px auto;
+}

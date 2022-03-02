@@ -6,7 +6,7 @@ import { Logins22 } from "./style";
 
 function Logins({ Login, error, logout }) {
  
-  const [details, setDetails] = useState({ name: "", email: "", password: "" });
+  const [details, setDetails] = useState({ name: "", email: "admin@gmail.com", password: "11111111" });
 
   const mode = useSelector(state => state.mode)
   const dispatch = useDispatch();
@@ -40,7 +40,7 @@ function Logins({ Login, error, logout }) {
               onChange={(e) =>
                 setDetails({ ...details, email: e.target.value })
               }
-              required
+            
               name="email"
               id="email"
             />
@@ -54,7 +54,6 @@ function Logins({ Login, error, logout }) {
               onChange={(e) =>
                 setDetails({ ...details, password: e.target.value })
               }
-              required
               name="password"
               id="password"
             />

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Messages = styled.div`
   width: 81.5%;
   position: absolute;
-  margin: 60px 233px;
+  margin: 60px 266px;
   padding: 2px 0;
   height: auto;
   display: flex;

@@ -6,7 +6,7 @@ import { Logins22 } from "./style";
 
 function Logins({ Login, error, logout }) {
  
-  const [details, setDetails] = useState({ name: "", email: "admin@gmail.com", password: "11111111" });
+  const [details, setDetails] = useState({ name: "", email: "", password: "" });
 
   const mode = useSelector(state => state.mode)
   const dispatch = useDispatch();

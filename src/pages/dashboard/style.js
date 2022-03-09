@@ -4,7 +4,7 @@ export const Dashboard = styled.div`
   width: 82.2%;
   left: 5px;
   position: absolute;
-  margin: 60px 266px;
+  margin: 60px 296px;
   padding: 2px 0;
   background-color: #fafafa;
   .wrapper {

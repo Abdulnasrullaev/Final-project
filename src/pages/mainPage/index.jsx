@@ -21,6 +21,7 @@ function MainPage() {
           <Route path="/cart" element={<Message />} />
           <Route path="/history" element={<History />} />
         </Routes>
+
       </Mainpages>
     </>
   );

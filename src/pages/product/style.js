@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Products = styled.div`
   width: 84%;
   position: absolute;
-  margin: 60px 0px 0px 230px;
+  margin: 60px 0 0px 15.19999rem;
   padding: 2px 0;
   background-color: #fafafa;
   .cart-img {
@@ -24,9 +24,11 @@ export const Products = styled.div`
     }
   }
   .btn-group {
-    margin: 20px 0px 40px 70px;
+    margin: 20px 0px 40px 80px;
     button {
-      margin: 0px 10px;
+      margin: 0px 0rem;
+      position: absolute;
+      left: 20rem;
       width: 100px;
       height: 30px;
       border: none;

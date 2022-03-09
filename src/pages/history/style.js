@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Histories = styled.div`
   width: 82.5%;
   position: absolute;
-  margin: 60px 236px;
+  margin: 60px 266.2px;
   padding: 2px 20px;
   background-color: #fafafa;
   .container {

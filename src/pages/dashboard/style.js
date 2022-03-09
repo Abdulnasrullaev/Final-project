@@ -4,7 +4,7 @@ export const Dashboard = styled.div`
   width: 82.2%;
   left: 5px;
   position: absolute;
-  margin: 60px 230px;
+  margin: 60px 16.6rem;
   padding: 2px 0;
   background-color: #fafafa;
   .wrapper {
@@ -34,6 +34,7 @@ export const Dashboard = styled.div`
           margin-top: -8px;
           img {
             width: 30px;
+            background: transparent;
             margin-top: -7px;
           }
         }

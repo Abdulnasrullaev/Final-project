@@ -4,7 +4,11 @@ export const Dashboard = styled.div`
   width: 82.2%;
   left: 5px;
   position: absolute;
+<<<<<<< HEAD
   margin: 60px 16.6rem;
+=======
+  margin: 60px 296px;
+>>>>>>> 4d72e63de4162e187870637773df6868e31c4a12
   padding: 2px 0;
   background-color: #fafafa;
   .wrapper {

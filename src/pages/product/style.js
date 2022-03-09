@@ -3,7 +3,11 @@ import styled from "styled-components";
 export const Products = styled.div`
   width: 84%;
   position: absolute;
+<<<<<<< HEAD
   margin: 60px 0 0px 15.19999rem;
+=======
+  margin: 60px 0px 0px 280px;
+>>>>>>> 4d72e63de4162e187870637773df6868e31c4a12
   padding: 2px 0;
   background-color: #fafafa;
   .cart-img {
